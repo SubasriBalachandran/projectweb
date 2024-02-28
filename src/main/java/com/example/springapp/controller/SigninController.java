@@ -64,4 +64,23 @@ public class SigninController {
         signinService.delete(signId);
         return ResponseEntity.noContent().build();
     }
+    @GetMapping("/{offset}/{pagesize}")
+    public ResponseEntity<List<Signin>> getMethodName(@PathVariable("offset") int offset,
+            @PathVariable("pagesize") int size) {
+        List<Signin> list = signinService.getPaginationSignin(offset, size);
+        if (list.size() == 0) {
+            return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(list, HttpStatus.OK);
+    }
+
+    @GetMapping("/{offset}/{pagesize}/{field}")
+    public ResponseEntity<List<Signin>> getSortedPagination(@PathVariable("offset") int offset,
+            @PathVariable("pagesize") int size, @PathVariable("field") String field) {
+        List<Signin> list = signinService.getSortedPaginationSignin(offset, size, field);
+        if (list.size() == 0) {
+            return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(list, HttpStatus.OK);
+    }
 }

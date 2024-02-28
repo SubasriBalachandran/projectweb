@@ -3,6 +3,7 @@ package com.example.springapp.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
@@ -49,5 +50,12 @@ public class SigninService {
     public List<Signin> sortTheRecords(String clientName)
     {
         return signinRepository.findAll(Sort.by(Sort.Direction.DESC,clientName));
+    }
+    public List<Signin> getPaginationSignin(int offset, int size) {
+        return signinRepository.findAll(PageRequest.of(offset, size)).getContent();
+    }
+
+    public List<Signin> getSortedPaginationSignin(int offset, int size, String field) {
+        return signinRepository.findAll(PageRequest.of(offset, size, Sort.by(field))).getContent();
     }
 }
