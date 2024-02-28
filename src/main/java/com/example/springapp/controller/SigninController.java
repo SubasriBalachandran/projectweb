@@ -28,7 +28,6 @@ public class SigninController {
     }
 
     @PostMapping("/signin")
-    // insert the data
     public ResponseEntity<Signin> createSignin(@RequestBody Signin client) {
         Signin createSignin = signinService.createSignin(client);
         return new ResponseEntity<>(createSignin, HttpStatus.CREATED);
@@ -38,6 +37,11 @@ public class SigninController {
     public ResponseEntity<List<Signin>> getAllSignin() {
         List<Signin> client = signinService.getAllSignin();
         return new ResponseEntity<>(client, HttpStatus.OK);
+    }
+    @GetMapping("/{signinName}")
+    public ResponseEntity<List<Signin>> sortTheRecords(@PathVariable String signinName) {
+        List<Signin> field = signinService.sortTheRecords(signinName);
+        return new ResponseEntity<>(field, HttpStatus.OK);
     }
 
     @GetMapping("/signin/{signinId}")
