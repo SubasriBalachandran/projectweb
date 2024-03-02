@@ -8,4 +8,5 @@ import com.example.springapp.model.Signin;
 @Repository
 public interface SigninRepository extends JpaRepository<Signin, Integer> {
 
+
 }

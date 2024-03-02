@@ -12,7 +12,7 @@ import com.example.springapp.repository.SigninRepository;
 
 
 @Service
-public class SigninService {
+public class SigninService { 
     @Autowired
     SigninRepository signinRepository;
 
