@@ -2,6 +2,8 @@ package com.example.springapp.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -33,6 +35,17 @@ public class SigninController {
     public ResponseEntity<Signin> createSignin(@RequestBody Signin client) {
         Signin createSignin = signinService.createSignin(client);
         return new ResponseEntity<>(createSignin, HttpStatus.CREATED);
+    }
+    public static final Logger logger = LoggerFactory.getLogger(SigninController.class);
+
+    @RequestMapping("/logger")
+    public String message() {
+        logger.info("INFO Enabled");
+        logger.error("Error Enabled");
+        logger.debug("Debug Enabled");
+        logger.trace("trace enabled");
+        logger.warn("warn enabled");
+        return "Test Logging";
     }
 
     @GetMapping("/signin")

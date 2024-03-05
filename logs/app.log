@@ -1,0 +1,24 @@
+2024-03-05 11:42:13,129 INFO com.example.springapp.SpringappApplication [restartedMain] Starting SpringappApplication using Java 17.0.10 with PID 2344 (C:\Users\subas\OneDrive\Desktop\springapp\target\classes started by subas in C:\Users\subas\OneDrive\Desktop\springapp)
+2024-03-05 11:42:13,151 DEBUG com.example.springapp.SpringappApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-05 11:42:13,153 INFO com.example.springapp.SpringappApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-05 11:42:16,045 DEBUG com.example.springapp.filter.LoggingFilter [restartedMain] Filter 'loggingFilter' configured for use
+2024-03-05 11:42:19,700 INFO com.example.springapp.SpringappApplication [restartedMain] Started SpringappApplication in 7.117 seconds (process running for 7.929)
+2024-03-05 11:42:25,292 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-1] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/api; REQUEST PAYLOAD=; RESPONSE CODE=404; RESPONSE
+2024-03-05 11:42:31,868 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-2] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/api/signin; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 11:42:34,966 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-3] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/api/signin; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 11:43:00,757 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-4] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/api/signin; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 11:45:15,453 INFO com.example.springapp.SpringappApplication [restartedMain] Starting SpringappApplication using Java 17.0.10 with PID 1160 (C:\Users\subas\OneDrive\Desktop\springapp\target\classes started by subas in C:\Users\subas\OneDrive\Desktop\springapp)
+2024-03-05 11:45:15,455 DEBUG com.example.springapp.SpringappApplication [restartedMain] Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-03-05 11:45:15,456 INFO com.example.springapp.SpringappApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-03-05 11:45:17,929 DEBUG com.example.springapp.filter.LoggingFilter [restartedMain] Filter 'loggingFilter' configured for use
+2024-03-05 11:45:21,493 INFO com.example.springapp.SpringappApplication [restartedMain] Started SpringappApplication in 6.446 seconds (process running for 7.255)
+2024-03-05 11:45:27,347 INFO com.example.springapp.controller.SigninController [http-nio-8080-exec-1] INFO Enabled
+2024-03-05 11:45:27,347 ERROR com.example.springapp.controller.SigninController [http-nio-8080-exec-1] Error Enabled
+2024-03-05 11:45:27,347 DEBUG com.example.springapp.controller.SigninController [http-nio-8080-exec-1] Debug Enabled
+2024-03-05 11:45:27,348 WARN com.example.springapp.controller.SigninController [http-nio-8080-exec-1] warn enabled
+2024-03-05 11:45:27,365 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-1] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/api/logger; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 11:45:30,787 INFO com.example.springapp.controller.SigninController [http-nio-8080-exec-2] INFO Enabled
+2024-03-05 11:45:30,787 ERROR com.example.springapp.controller.SigninController [http-nio-8080-exec-2] Error Enabled
+2024-03-05 11:45:30,797 DEBUG com.example.springapp.controller.SigninController [http-nio-8080-exec-2] Debug Enabled
+2024-03-05 11:45:30,855 WARN com.example.springapp.controller.SigninController [http-nio-8080-exec-2] warn enabled
+2024-03-05 11:45:30,862 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-2] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/api/logger; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
