@@ -17,9 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.springapp.model.Signin;
 import com.example.springapp.service.SigninService;
 
+
 @RestController
 @RequestMapping("/api")
 public class SigninController {
+
     @Autowired
     private final SigninService signinService;
 
