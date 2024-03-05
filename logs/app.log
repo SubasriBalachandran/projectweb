@@ -22,3 +22,11 @@
 2024-03-05 11:45:30,797 DEBUG com.example.springapp.controller.SigninController [http-nio-8080-exec-2] Debug Enabled
 2024-03-05 11:45:30,855 WARN com.example.springapp.controller.SigninController [http-nio-8080-exec-2] warn enabled
 2024-03-05 11:45:30,862 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-2] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/api/logger; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:44:06,634 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-5] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.html; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:44:06,708 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-6] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/swagger-ui.css; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:44:06,716 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-8] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/index.css; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:44:06,731 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-9] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/swagger-ui-standalone-preset.js; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:44:06,842 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-7] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/swagger-ui-bundle.js; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:44:06,918 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-10] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/swagger-ui/swagger-initializer.js; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:44:07,143 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-4] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/v3/api-docs/swagger-config; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
+2024-03-05 12:44:07,755 INFO com.example.springapp.filter.LoggingFilter [http-nio-8080-exec-5] FINISHED PROCESSING :METHOD=GET; REQUESTURI=/v3/api-docs; REQUEST PAYLOAD=; RESPONSE CODE=200; RESPONSE
